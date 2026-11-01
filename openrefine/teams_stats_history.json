@@ -1,0 +1,2336 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q133699200",
+        "name": "2026 FIFA World Cup team"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column team_country to type Q133699200"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Algeria",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136469018",
+      "name": "Algeria at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Algeria at the 2026 FIFA World Cup (Q136469018) for cells containing \"Algeria\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Argentina",
+    "judgment": "matched",
+    "match": {
+      "id": "Q133699214",
+      "name": "Argentina at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Argentina at the 2026 FIFA World Cup (Q133699214) for cells containing \"Argentina\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Australia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136130755",
+      "name": "Australia at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Australia at the 2026 FIFA World Cup (Q136130755) for cells containing \"Australia\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Austria",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136832178",
+      "name": "Austria at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Austria at the 2026 FIFA World Cup (Q136832178) for cells containing \"Austria\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Belgium",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136833229",
+      "name": "Belgium at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Belgium at the 2026 FIFA World Cup (Q136833229) for cells containing \"Belgium\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Bosnia and Herzegovina",
+    "judgment": "matched",
+    "match": {
+      "id": "Q138848757",
+      "name": "Bosnia and Herzegovina at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bosnia and Herzegovina at the 2026 FIFA World Cup (Q138848757) for cells containing \"Bosnia and Herzegovina\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Brazil",
+    "judgment": "matched",
+    "match": {
+      "id": "Q134872060",
+      "name": "Brazil at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brazil at the 2026 FIFA World Cup (Q134872060) for cells containing \"Brazil\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Cabo Verde",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136489798",
+      "name": "Cape Verde at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cape Verde at the 2026 FIFA World Cup (Q136489798) for cells containing \"Cabo Verde\" in column team_country"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "expression": "grel:value + ' at the 2026 fifa world cup'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column team_country using expression grel:value + ' at the 2026 fifa world cup'"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Canada at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q133699215",
+      "name": "Canada at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Canada at the 2026 FIFA World Cup (Q133699215) for cells containing \"Canada at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Colombia at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136102640",
+      "name": "Colombia at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Colombia at the 2026 FIFA World Cup (Q136102640) for cells containing \"Colombia at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Congo DR at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q140437389",
+      "name": "Democratic Republic of the Congo at the 2026 Summer Youth Olympics",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Democratic Republic of the Congo at the 2026 Summer Youth Olympics (Q140437389) for cells containing \"Congo DR at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Croatia at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136790433",
+      "name": "Croatia at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Croatia at the 2026 FIFA World Cup (Q136790433) for cells containing \"Croatia at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Curaçao at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136833038",
+      "name": "Curaçao at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Curaçao at the 2026 FIFA World Cup (Q136833038) for cells containing \"Curaçao at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Czechia at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q138850372",
+      "name": "Czech Republic at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Czech Republic at the 2026 FIFA World Cup (Q138850372) for cells containing \"Czechia at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Côte d'Ivoire at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136510894",
+      "name": "Ivory Coast at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ivory Coast at the 2026 FIFA World Cup (Q136510894) for cells containing \"Côte d'Ivoire at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Ecuador at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q134883413",
+      "name": "Ecuador at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ecuador at the 2026 FIFA World Cup (Q134883413) for cells containing \"Ecuador at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Egypt at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136460879",
+      "name": "Egypt at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Egypt at the 2026 FIFA World Cup (Q136460879) for cells containing \"Egypt at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "England at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136510940",
+      "name": "England at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England at the 2026 FIFA World Cup (Q136510940) for cells containing \"England at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "France at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136779271",
+      "name": "France at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item France at the 2026 FIFA World Cup (Q136779271) for cells containing \"France at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Germany at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136817555",
+      "name": "Germany at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Germany at the 2026 FIFA World Cup (Q136817555) for cells containing \"Germany at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Ghana at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136510927",
+      "name": "Ghana at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ghana at the 2026 FIFA World Cup (Q136510927) for cells containing \"Ghana at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Haiti at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136833044",
+      "name": "Haiti at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Haiti at the 2026 FIFA World Cup (Q136833044) for cells containing \"Haiti at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "IR Iran at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q133699217",
+      "name": "Iran at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Iran at the 2026 FIFA World Cup (Q133699217) for cells containing \"IR Iran at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Iraq at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q138859181",
+      "name": "Iraq at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Iraq at the 2026 FIFA World Cup (Q138859181) for cells containing \"Iraq at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Japan at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q133699218",
+      "name": "Japan at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Japan at the 2026 FIFA World Cup (Q133699218) for cells containing \"Japan at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Jordan at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136130839",
+      "name": "Jordan at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jordan at the 2026 FIFA World Cup (Q136130839) for cells containing \"Jordan at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Mexico at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q133699219",
+      "name": "Mexico at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mexico at the 2026 FIFA World Cup (Q133699219) for cells containing \"Mexico at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Morocco at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136130909",
+      "name": "Morocco at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Morocco at the 2026 FIFA World Cup (Q136130909) for cells containing \"Morocco at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Netherlands at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136817558",
+      "name": "Netherlands at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Netherlands at the 2026 FIFA World Cup (Q136817558) for cells containing \"Netherlands at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "New Zealand at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q133699213",
+      "name": "New Zealand at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item New Zealand at the 2026 FIFA World Cup (Q133699213) for cells containing \"New Zealand at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Norway at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136807930",
+      "name": "Norway at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Norway at the 2026 FIFA World Cup (Q136807930) for cells containing \"Norway at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Panama at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136833210",
+      "name": "Panama at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Panama at the 2026 FIFA World Cup (Q136833210) for cells containing \"Panama at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Paraguay at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136130923",
+      "name": "Paraguay at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paraguay at the 2026 FIFA World Cup (Q136130923) for cells containing \"Paraguay at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Portugal at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136807937",
+      "name": "Portugal at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Portugal at the 2026 FIFA World Cup (Q136807937) for cells containing \"Portugal at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Qatar at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136510862",
+      "name": "Qatar at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Qatar at the 2026 FIFA World Cup (Q136510862) for cells containing \"Qatar at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Saudi Arabia at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136674860",
+      "name": "Saudi Arabia at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saudi Arabia at the 2026 FIFA World Cup (Q136674860) for cells containing \"Saudi Arabia at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Scotland at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136832175",
+      "name": "Scotland at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Scotland at the 2026 FIFA World Cup (Q136832175) for cells containing \"Scotland at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Senegal at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136511018",
+      "name": "Senegal at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Senegal at the 2026 FIFA World Cup (Q136511018) for cells containing \"Senegal at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "South Africa at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136511026",
+      "name": "South Africa at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item South Africa at the 2026 FIFA World Cup (Q136511026) for cells containing \"South Africa at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "South Korea at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q137493161",
+      "name": "South Korea at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item South Korea at the 2026 FIFA World Cup (Q137493161) for cells containing \"South Korea at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Spain at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136832192",
+      "name": "Spain at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Spain at the 2026 FIFA World Cup (Q136832192) for cells containing \"Spain at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Sweden at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q138849215",
+      "name": "Sweden at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sweden at the 2026 FIFA World Cup (Q138849215) for cells containing \"Sweden at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Switzerland at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136832204",
+      "name": "Switzerland at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Switzerland at the 2026 FIFA World Cup (Q136832204) for cells containing \"Switzerland at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Tunisia at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136172903",
+      "name": "Tunisia at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tunisia at the 2026 FIFA World Cup (Q136172903) for cells containing \"Tunisia at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Türkiye at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q138848791",
+      "name": "Turkey at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Turkey at the 2026 FIFA World Cup (Q138848791) for cells containing \"Türkiye at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "USA at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q133699216",
+      "name": "United States at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item United States at the 2026 FIFA World Cup (Q133699216) for cells containing \"USA at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Uruguay at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q136130928",
+      "name": "Uruguay at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Uruguay at the 2026 FIFA World Cup (Q136130928) for cells containing \"Uruguay at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "team_country: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "team_country",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "team_country",
+    "similarValue": "Uzbekistan at the 2026 fifa world cup",
+    "judgment": "matched",
+    "match": {
+      "id": "Q134717328",
+      "name": "Uzbekistan at the 2026 FIFA World Cup",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Uzbekistan at the 2026 FIFA World Cup (Q134717328) for cells containing \"Uzbekistan at the 2026 fifa world cup\" in column team_country"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "team_country",
+    "newColumnName": "team",
+    "description": "Rename column team_country to team"
+  },
+  {
+    "op": "rdf-transform/save-rdf-transform",
+    "rdf-transform": {
+      "version": "2.3.6",
+      "extension": "RDFTransform",
+      "namespaces": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+      },
+      "subjectMappings": [
+        {
+          "valueSource": {
+            "source": "row_index"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "grel:row.index"
+          },
+          "typeMappings": [
+            {
+              "prefix": "null",
+              "valueSource": {
+                "source": "constant",
+                "constant": "teamstatistic"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "team"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "team"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "stat_desc"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "stat_desc"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "amount"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "amount"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "baseIRI": "http://127.0.0.1:3333/"
+    },
+    "description": "Save RDF Transform"
+  },
+  {
+    "op": "rdf-transform/save-rdf-transform",
+    "rdf-transform": {
+      "version": "2.3.6",
+      "extension": "RDFTransform",
+      "namespaces": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+      },
+      "subjectMappings": [
+        {
+          "valueSource": {
+            "source": "row_index"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "grel:row.index"
+          },
+          "typeMappings": [
+            {
+              "prefix": "null",
+              "valueSource": {
+                "source": "constant",
+                "constant": "teamstatistic"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "team"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "team"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "stat_desc"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "stat_desc"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "amount"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "amount"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "baseIRI": "http://127.0.0.1:3333/"
+    },
+    "description": "Save RDF Transform"
+  },
+  {
+    "op": "rdf-transform/save-rdf-transform",
+    "rdf-transform": {
+      "version": "2.3.6",
+      "extension": "RDFTransform",
+      "namespaces": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+      },
+      "subjectMappings": [
+        {
+          "valueSource": {
+            "source": "row_index"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "grel:row.index"
+          },
+          "typeMappings": [
+            {
+              "prefix": "null",
+              "valueSource": {
+                "source": "constant",
+                "constant": "teamstatistic"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "team"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "team"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "stat_desc"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "stat_desc"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "amount"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "amount"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "baseIRI": "http://127.0.0.1:3333/"
+    },
+    "description": "Save RDF Transform"
+  },
+  {
+    "op": "rdf-transform/save-rdf-transform",
+    "rdf-transform": {
+      "version": "2.3.6",
+      "extension": "RDFTransform",
+      "namespaces": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+      },
+      "subjectMappings": [
+        {
+          "valueSource": {
+            "source": "row_index"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "grel:row.index"
+          },
+          "typeMappings": [
+            {
+              "prefix": "null",
+              "valueSource": {
+                "source": "constant",
+                "constant": "teamstatistic"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "team"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "team"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "stat_desc"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "stat_desc"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "",
+              "valueSource": {
+                "source": "constant",
+                "constant": "amount"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "amount"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "baseIRI": "http://127.0.0.1:3333/"
+    },
+    "description": "Save RDF Transform"
+  }
+]

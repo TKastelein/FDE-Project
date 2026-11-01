@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/terra/ontologies/2026/9/fifa-world-cup-stats/"
+     xml:base="http://www.semanticweb.org/terra/ontologies/2026/9/fifa-world-cup-stats/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#action -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#action">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q135476290"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q17315159"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#describes_participation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#describes_participation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#team_participation_statistic"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q135476290"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#describes_player -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#describes_player">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#player_statistic"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q937857"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#describes_team -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#describes_team">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#team_statistic"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q133699200"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#member_of_sports_team -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#member_of_sports_team">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q937857"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q133699200"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#participant -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#participant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q135476290"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q133699200"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#participating_team -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#participating_team">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q133699200"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q17315159"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#amount -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#amount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#association_football_statistic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#description -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#association_football_statistic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#association_football_statistic -->
+
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#association_football_statistic"/>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#player_statistic -->
+
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#player_statistic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#association_football_statistic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#team_participation_statistic -->
+
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#team_participation_statistic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#association_football_statistic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#team_statistic -->
+
+    <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#team_statistic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#association_football_statistic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q133699200 -->
+
+    <owl:Class rdf:about="https://www.wikidata.org/wiki/Q133699200">
+        <rdfs:label>2026 FIFA World Cup team</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q135476290 -->
+
+    <owl:Class rdf:about="https://www.wikidata.org/wiki/Q135476290">
+        <rdfs:label>participation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q17315159 -->
+
+    <owl:Class rdf:about="https://www.wikidata.org/wiki/Q17315159">
+        <rdfs:label>international association football match</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q5020214 -->
+
+    <owl:Class rdf:about="https://www.wikidata.org/wiki/Q5020214">
+        <rdfs:label>2026 FIFA World Cup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q937857 -->
+
+    <owl:Class rdf:about="https://www.wikidata.org/wiki/Q937857">
+        <rdfs:label>association football player</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#player_statistic"/>
+            <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#team_participation_statistic"/>
+            <rdf:Description rdf:about="https://w3id.org/FAIR-course-UT/2025-2026/group27/ont#team_statistic"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

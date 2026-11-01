@@ -1,0 +1,487 @@
+@prefix :      <http://127.0.0.1:3333/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:79     rdf:type    <null:teamstatistic>;
+        :amount     "22";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "South Korea at the 2026 fifa world cup" .
+
+:38     rdf:type    <null:teamstatistic>;
+        :amount     "1970";
+        :stat_desc  "ELO rating";
+        :team       "Germany at the 2026 fifa world cup" .
+
+:66     rdf:type    <null:teamstatistic>;
+        :amount     "2010";
+        :stat_desc  "ELO rating";
+        :team       "Portugal at the 2026 fifa world cup" .
+
+:94     rdf:type    <null:teamstatistic>;
+        :amount     "1650";
+        :stat_desc  "ELO rating";
+        :team       "Uzbekistan at the 2026 fifa world cup" .
+
+:25     rdf:type    <null:teamstatistic>;
+        :amount     "82";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Curaçao at the 2026 fifa world cup" .
+
+:53     rdf:type    <null:teamstatistic>;
+        :amount     "14";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Mexico at the 2026 fifa world cup" .
+
+:81     rdf:type    <null:teamstatistic>;
+        :amount     "2";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Spain at the 2026 fifa world cup" .
+
+:12     rdf:type    <null:teamstatistic>;
+        :amount     "2030";
+        :stat_desc  "ELO rating";
+        :team       "Brazil" .
+
+:40     rdf:type    <null:teamstatistic>;
+        :amount     "1690";
+        :stat_desc  "ELO rating";
+        :team       "Ghana at the 2026 fifa world cup" .
+
+:0      rdf:type    <null:teamstatistic>;
+        :amount     "1760";
+        :stat_desc  "ELO rating";
+        :team       "Algeria" .
+
+:59     rdf:type    <null:teamstatistic>;
+        :amount     "85";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "New Zealand at the 2026 fifa world cup" .
+
+:87     rdf:type    <null:teamstatistic>;
+        :amount     "45";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Tunisia at the 2026 fifa world cup" .
+
+:18     rdf:type    <null:teamstatistic>;
+        :amount     "1990";
+        :stat_desc  "ELO rating";
+        :team       "Colombia at the 2026 fifa world cup" .
+
+:46     rdf:type    <null:teamstatistic>;
+        :amount     "1630";
+        :stat_desc  "ELO rating";
+        :team       "Iraq at the 2026 fifa world cup" .
+
+:74     rdf:type    <null:teamstatistic>;
+        :amount     "1840";
+        :stat_desc  "ELO rating";
+        :team       "Senegal at the 2026 fifa world cup" .
+
+:6      rdf:type    <null:teamstatistic>;
+        :amount     "1830";
+        :stat_desc  "ELO rating";
+        :team       "Austria" .
+
+:33     rdf:type    <null:teamstatistic>;
+        :amount     "36";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Egypt at the 2026 fifa world cup" .
+
+:61     rdf:type    <null:teamstatistic>;
+        :amount     "44";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Norway at the 2026 fifa world cup" .
+
+:20     rdf:type    <null:teamstatistic>;
+        :amount     "1670";
+        :stat_desc  "ELO rating";
+        :team       "Congo DR at the 2026 fifa world cup" .
+
+:39     rdf:type    <null:teamstatistic>;
+        :amount     "10";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Germany at the 2026 fifa world cup" .
+
+:67     rdf:type    <null:teamstatistic>;
+        :amount     "5";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Portugal at the 2026 fifa world cup" .
+
+:95     rdf:type    <null:teamstatistic>;
+        :amount     "50";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Uzbekistan at the 2026 fifa world cup" .
+
+:26     rdf:type    <null:teamstatistic>;
+        :amount     "1740";
+        :stat_desc  "ELO rating";
+        :team       "Czechia at the 2026 fifa world cup" .
+
+:54     rdf:type    <null:teamstatistic>;
+        :amount     "1920";
+        :stat_desc  "ELO rating";
+        :team       "Morocco at the 2026 fifa world cup" .
+
+:82     rdf:type    <null:teamstatistic>;
+        :amount     "1815";
+        :stat_desc  "ELO rating";
+        :team       "Sweden at the 2026 fifa world cup" .
+
+:13     rdf:type    <null:teamstatistic>;
+        :amount     "6";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Brazil" .
+
+:41     rdf:type    <null:teamstatistic>;
+        :amount     "49";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Ghana at the 2026 fifa world cup" .
+
+:1      rdf:type    <null:teamstatistic>;
+        :amount     "28";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Algeria" .
+
+:88     rdf:type    <null:teamstatistic>;
+        :amount     "1780";
+        :stat_desc  "ELO rating";
+        :team       "Türkiye at the 2026 fifa world cup" .
+
+:19     rdf:type    <null:teamstatistic>;
+        :amount     "13";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Colombia at the 2026 fifa world cup" .
+
+:47     rdf:type    <null:teamstatistic>;
+        :amount     "55";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Iraq at the 2026 fifa world cup" .
+
+:75     rdf:type    <null:teamstatistic>;
+        :amount     "15";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Senegal at the 2026 fifa world cup" .
+
+:7      rdf:type    <null:teamstatistic>;
+        :amount     "24";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Austria" .
+
+:34     rdf:type    <null:teamstatistic>;
+        :amount     "2050";
+        :stat_desc  "ELO rating";
+        :team       "England at the 2026 fifa world cup" .
+
+:62     rdf:type    <null:teamstatistic>;
+        :amount     "1680";
+        :stat_desc  "ELO rating";
+        :team       "Panama at the 2026 fifa world cup" .
+
+:90     rdf:type    <null:teamstatistic>;
+        :amount     "1850";
+        :stat_desc  "ELO rating";
+        :team       "USA at the 2026 fifa world cup" .
+
+:21     rdf:type    <null:teamstatistic>;
+        :amount     "61";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Congo DR at the 2026 fifa world cup" .
+
+:68     rdf:type    <null:teamstatistic>;
+        :amount     "1600";
+        :stat_desc  "ELO rating";
+        :team       "Qatar at the 2026 fifa world cup" .
+
+:27     rdf:type    <null:teamstatistic>;
+        :amount     "40";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Czechia at the 2026 fifa world cup" .
+
+:55     rdf:type    <null:teamstatistic>;
+        :amount     "7";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Morocco at the 2026 fifa world cup" .
+
+:83     rdf:type    <null:teamstatistic>;
+        :amount     "25";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Sweden at the 2026 fifa world cup" .
+
+:14     rdf:type    <null:teamstatistic>;
+        :amount     "1640";
+        :stat_desc  "ELO rating";
+        :team       "Cabo Verde" .
+
+:42     rdf:type    <null:teamstatistic>;
+        :amount     "1530";
+        :stat_desc  "ELO rating";
+        :team       "Haiti at the 2026 fifa world cup" .
+
+:70     rdf:type    <null:teamstatistic>;
+        :amount     "1660";
+        :stat_desc  "ELO rating";
+        :team       "Saudi Arabia at the 2026 fifa world cup" .
+
+:2      rdf:type    <null:teamstatistic>;
+        :amount     "2150";
+        :stat_desc  "ELO rating";
+        :team       "Argentina" .
+
+:89     rdf:type    <null:teamstatistic>;
+        :amount     "26";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Türkiye at the 2026 fifa world cup" .
+
+:48     rdf:type    <null:teamstatistic>;
+        :amount     "1880";
+        :stat_desc  "ELO rating";
+        :team       "Japan at the 2026 fifa world cup" .
+
+:76     rdf:type    <null:teamstatistic>;
+        :amount     "1620";
+        :stat_desc  "ELO rating";
+        :team       "South Africa at the 2026 fifa world cup" .
+
+:8      rdf:type    <null:teamstatistic>;
+        :amount     "1950";
+        :stat_desc  "ELO rating";
+        :team       "Belgium" .
+
+:35     rdf:type    <null:teamstatistic>;
+        :amount     "4";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "England at the 2026 fifa world cup" .
+
+:63     rdf:type    <null:teamstatistic>;
+        :amount     "34";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Panama at the 2026 fifa world cup" .
+
+:91     rdf:type    <null:teamstatistic>;
+        :amount     "17";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "USA at the 2026 fifa world cup" .
+
+:22     rdf:type    <null:teamstatistic>;
+        :amount     "1940";
+        :stat_desc  "ELO rating";
+        :team       "Croatia at the 2026 fifa world cup" .
+
+:50     rdf:type    <null:teamstatistic>;
+        :amount     "1610";
+        :stat_desc  "ELO rating";
+        :team       "Jordan at the 2026 fifa world cup" .
+
+:69     rdf:type    <null:teamstatistic>;
+        :amount     "56";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Qatar at the 2026 fifa world cup" .
+
+:28     rdf:type    <null:teamstatistic>;
+        :amount     "1750";
+        :stat_desc  "ELO rating";
+        :team       "Côte d'Ivoire at the 2026 fifa world cup" .
+
+:56     rdf:type    <null:teamstatistic>;
+        :amount     "1980";
+        :stat_desc  "ELO rating";
+        :team       "Netherlands at the 2026 fifa world cup" .
+
+:84     rdf:type    <null:teamstatistic>;
+        :amount     "1860";
+        :stat_desc  "ELO rating";
+        :team       "Switzerland at the 2026 fifa world cup" .
+
+:15     rdf:type    <null:teamstatistic>;
+        :amount     "67";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Cabo Verde" .
+
+:43     rdf:type    <null:teamstatistic>;
+        :amount     "83";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Haiti at the 2026 fifa world cup" .
+
+:71     rdf:type    <null:teamstatistic>;
+        :amount     "58";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Saudi Arabia at the 2026 fifa world cup" .
+
+:3      rdf:type    <null:teamstatistic>;
+        :amount     "1";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Argentina" .
+
+:30     rdf:type    <null:teamstatistic>;
+        :amount     "1870";
+        :stat_desc  "ELO rating";
+        :team       "Ecuador at the 2026 fifa world cup" .
+
+:49     rdf:type    <null:teamstatistic>;
+        :amount     "18";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Japan at the 2026 fifa world cup" .
+
+:77     rdf:type    <null:teamstatistic>;
+        :amount     "60";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "South Africa at the 2026 fifa world cup" .
+
+:9      rdf:type    <null:teamstatistic>;
+        :amount     "9";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Belgium" .
+
+:36     rdf:type    <null:teamstatistic>;
+        :amount     "2100";
+        :stat_desc  "ELO rating";
+        :team       "France at the 2026 fifa world cup" .
+
+:64     rdf:type    <null:teamstatistic>;
+        :amount     "1725";
+        :stat_desc  "ELO rating";
+        :team       "Paraguay at the 2026 fifa world cup" .
+
+:92     rdf:type    <null:teamstatistic>;
+        :amount     "1960";
+        :stat_desc  "ELO rating";
+        :team       "Uruguay at the 2026 fifa world cup" .
+
+:23     rdf:type    <null:teamstatistic>;
+        :amount     "11";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Croatia at the 2026 fifa world cup" .
+
+:51     rdf:type    <null:teamstatistic>;
+        :amount     "63";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Jordan at the 2026 fifa world cup" .
+
+:10     rdf:type    <null:teamstatistic>;
+        :amount     "1645";
+        :stat_desc  "ELO rating";
+        :team       "Bosnia and Herzegovina" .
+
+:29     rdf:type    <null:teamstatistic>;
+        :amount     "38";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Côte d'Ivoire at the 2026 fifa world cup" .
+
+:57     rdf:type    <null:teamstatistic>;
+        :amount     "8";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Netherlands at the 2026 fifa world cup" .
+
+:85     rdf:type    <null:teamstatistic>;
+        :amount     "19";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Switzerland at the 2026 fifa world cup" .
+
+:16     rdf:type    <null:teamstatistic>;
+        :amount     "1795";
+        :stat_desc  "ELO rating";
+        :team       "Canada at the 2026 fifa world cup" .
+
+:44     rdf:type    <null:teamstatistic>;
+        :amount     "1820";
+        :stat_desc  "ELO rating";
+        :team       "IR Iran at the 2026 fifa world cup" .
+
+:72     rdf:type    <null:teamstatistic>;
+        :amount     "1720";
+        :stat_desc  "ELO rating";
+        :team       "Scotland at the 2026 fifa world cup" .
+
+:4      rdf:type    <null:teamstatistic>;
+        :amount     "1790";
+        :stat_desc  "ELO rating";
+        :team       "Australia" .
+
+:31     rdf:type    <null:teamstatistic>;
+        :amount     "23";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Ecuador at the 2026 fifa world cup" .
+
+:78     rdf:type    <null:teamstatistic>;
+        :amount     "1800";
+        :stat_desc  "ELO rating";
+        :team       "South Korea at the 2026 fifa world cup" .
+
+:37     rdf:type    <null:teamstatistic>;
+        :amount     "3";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "France at the 2026 fifa world cup" .
+
+:65     rdf:type    <null:teamstatistic>;
+        :amount     "54";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Paraguay at the 2026 fifa world cup" .
+
+:93     rdf:type    <null:teamstatistic>;
+        :amount     "16";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Uruguay at the 2026 fifa world cup" .
+
+:24     rdf:type    <null:teamstatistic>;
+        :amount     "1520";
+        :stat_desc  "ELO rating";
+        :team       "Curaçao at the 2026 fifa world cup" .
+
+:52     rdf:type    <null:teamstatistic>;
+        :amount     "1810";
+        :stat_desc  "ELO rating";
+        :team       "Mexico at the 2026 fifa world cup" .
+
+:80     rdf:type    <null:teamstatistic>;
+        :amount     "2120";
+        :stat_desc  "ELO rating";
+        :team       "Spain at the 2026 fifa world cup" .
+
+:11     rdf:type    <null:teamstatistic>;
+        :amount     "64";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Bosnia and Herzegovina" .
+
+:58     rdf:type    <null:teamstatistic>;
+        :amount     "1510";
+        :stat_desc  "ELO rating";
+        :team       "New Zealand at the 2026 fifa world cup" .
+
+:86     rdf:type    <null:teamstatistic>;
+        :amount     "1710";
+        :stat_desc  "ELO rating";
+        :team       "Tunisia at the 2026 fifa world cup" .
+
+:17     rdf:type    <null:teamstatistic>;
+        :amount     "33";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Canada at the 2026 fifa world cup" .
+
+:45     rdf:type    <null:teamstatistic>;
+        :amount     "20";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "IR Iran at the 2026 fifa world cup" .
+
+:73     rdf:type    <null:teamstatistic>;
+        :amount     "39";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Scotland at the 2026 fifa world cup" .
+
+:5      rdf:type    <null:teamstatistic>;
+        :amount     "27";
+        :stat_desc  "FIFA ranking before tournament";
+        :team       "Australia" .
+
+:32     rdf:type    <null:teamstatistic>;
+        :amount     "1730";
+        :stat_desc  "ELO rating";
+        :team       "Egypt at the 2026 fifa world cup" .
+
+:60     rdf:type    <null:teamstatistic>;
+        :amount     "1775";
+        :stat_desc  "ELO rating";
+        :team       "Norway at the 2026 fifa world cup" .
